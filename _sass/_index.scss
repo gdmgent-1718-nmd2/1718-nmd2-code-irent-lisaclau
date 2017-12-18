@@ -1,0 +1,15 @@
+@import
+"bootstrap-variables",                  // See _bootstrap-variables.scss
+"../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+
+.home {
+    height: 10%;
+}
+  
+.jumbotron {
+   background-color: yellow; 
+}
+
+.rechts {
+    text-align: left;
+}

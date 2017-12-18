@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700');
 // Custom Variables
 //
 // Put variables overrides here.
@@ -15,6 +17,29 @@ $primary: $indigo;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
-$font-family-base: Merriweather, serif;
+$regfontsize: 10px; 
+$regfont: Muli, normal;
+
+$h1fontsize: 24px; 
+$h1font: Bungee;
+
+$h2fontsize: 14px;
+$h2font: Muli, normal;
+$h2text-transform: uppercase; 
+
+
+$h3fontsize: 12px;
+$h3font: Muli, normal;
+
+$h4fontsize: 10px;
+$h4font: Bungee, normal;
+
+$formfontsize: 6px;
+$formfont: Muli, normal;
+
+$btnfont: Muli;
+$btntext-transform: uppercase; 
+
+
+$footerfontsize: 6px;

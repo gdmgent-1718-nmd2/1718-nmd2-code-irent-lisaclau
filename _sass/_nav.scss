@@ -1,0 +1,53 @@
+ /* NAVIGATION BAR
+ -------------------------------------------------- */
+ #navigation {
+  min-height: 70px !important;
+  padding-top: 10px;
+}
+
+#navigation .navbar-brand .site-logo {
+  float: left;
+  margin-top: -10px;
+  margin-right: 1rem;
+  width: 250px;
+}
+
+
+@media (max-width: 768px) {
+  #navigation #navbar {
+      float: none !important;
+      margin-right: 0;
+  }
+}
+
+#navigation #navbar .navbar-nav li a {
+  color: #b2bbbd !important;
+}
+
+#navigation #navbar .navbar-nav li a:hover,
+#navigation #navbar .navbar-nav li a:focus {
+  color: #ffffff !important;
+  border-bottom: 2px solid #ffffff !important;
+}
+
+#navigation #navbar .navbar-nav .active a {
+  color: #ffffff !important;
+  border-bottom: 2px solid #ffffff !important;
+}
+
+#navigation #navbar .navbar-nav .dropdown-menu li a {
+  color: #515151 !important;
+  text-shadow: none !important;
+}
+
+
+.nav-item {
+  font-family: $h1font;
+  font-size: $h2fontsize;
+  text-transform: $h2text-transform; 
+  text-align: center;
+  margin-bottom: 30px; 
+
+} 
+
+  
