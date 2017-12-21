@@ -10,16 +10,18 @@
 // Color system
 //
 
-$indigo:  #6610f2;
+$indigo:  rgb(209, 209, 208);
 $primary: $indigo;
 
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
 
+$textalign: center;
 
 $regfontsize: 10px; 
 $regfont: Muli, normal;
+
 
 $h1fontsize: 24px; 
 $h1font: Bungee;

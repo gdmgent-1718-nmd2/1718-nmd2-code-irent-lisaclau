@@ -7,9 +7,16 @@
 }
   
 .jumbotron {
-   background-color: yellow; 
+   padding: 0;
 }
 
-.rechts {
-    text-align: left;
+.center {
+    text-align: center;
 }
+
+.up {
+ z-index: 1;
+}
+
+
+
