@@ -6,8 +6,19 @@
     height: 10%;
 }
   
-.jumbotron {
-   padding: 0;
+.jumbotron-fluid {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .center {
@@ -15,8 +26,15 @@
 }
 
 .up {
- z-index: 1;
+    z-index: 1;
 }
 
+.btntop {
+    margin-top: 10%;
+}
+
+.btnbottom {
+    margin-bottom: 10%;
+}
 
 

@@ -3,14 +3,16 @@
 "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
 
 
+
+.footer {
+  margin-top: 15%;
+  }
+  
 .footertext {
     text-align: right;
     font-size: $footerfontsize; 
-    margin-top: 30px;
   }
   
   .socialemedia {
     width: 70%;
-    margin-top: 30px;
   }
-  
