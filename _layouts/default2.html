@@ -9,8 +9,15 @@
 <body>
 
     {% include nav.html %}
-    {{ content }}
+
+    <div class="container">
+        <div class="row">
+                {{ content }}
+        </div>
+    </div>
+
     {% include footer.html %}
     {% include scripts-bottom.html %}
+
 </body>
 </html>
