@@ -46,9 +46,23 @@
   font-size: $h2fontsize;
   text-transform: $h2text-transform; 
   text-align: center;
-  margin-bottom: 30px; 
-
+  margin-bottom: 5%; 
+  margin-top: 5%;
 } 
+
+@media screen and (min-width: 480px) {
+.nav-item {
+  font-size: $h2fontsizetablet; 
+}
+}
+
+@media screen and (min-width: 992px) {
+  .nav-item {
+    margin-left: 70px;;
+  }
+
+
+}
 
 .navbar {
   background-color: white;
@@ -57,3 +71,4 @@
 .navbar-toggler-icon {
   border-bottom: none;
 }
+

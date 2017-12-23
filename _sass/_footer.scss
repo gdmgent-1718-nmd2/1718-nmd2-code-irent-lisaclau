@@ -9,10 +9,25 @@
   }
   
 .footertext {
-    text-align: right;
-    font-size: $footerfontsize; 
+  text-align: right;
+  font-size: $footerfontsize; 
   }
   
-  .socialemedia {
-    width: 70%;
+.socialemedia {
+  width: 70%;
   }
+
+  @media screen and (min-width: 480px) {
+
+  .footer {
+    margin-bottom: 2%;
+    }
+
+  .socialemedia {
+    width: 60%;
+    margin-right: 30px;
+    margin-bottom: 5%;
+    }
+
+  }
+

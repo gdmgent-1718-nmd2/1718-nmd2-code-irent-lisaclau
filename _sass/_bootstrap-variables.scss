@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee');
 @import url('https://fonts.googleapis.com/css?family=Muli:400,700');
-// Custom Variables
-//
-// Put variables overrides here.
-//
-// See _vendor/bootstrap/scss/_variables.scss
+
 
 //
 // Color system
@@ -13,35 +9,52 @@
 $indigo:  rgb(209, 209, 208);
 $primary: $indigo;
 
-// Fonts
-//
 // Font, line-height, and color for body text, headings, and more.
 
+// MOBILE
 $textalign: center;
 
-$regfontsize: 10px; 
+$regfontsize: 12px; 
 $regfont: Muli, normal;
 
 
 $h1fontsize: 24px; 
-$h1font: Bungee;
+$h1font: Bungee, normal;
 
 $h2fontsize: 14px;
-$h2font: Muli, normal;
 $h2text-transform: uppercase; 
 
 
 $h3fontsize: 12px;
-$h3font: Muli, normal;
 
 $h4fontsize: 10px;
 $h4font: Bungee, normal;
 
 $formfontsize: 6px;
-$formfont: Muli, normal;
 
 $btnfont: Muli;
 $btntext-transform: uppercase; 
 
 
 $footerfontsize: 6px;
+
+//TABLET
+
+$regfontsizetablet: 16px; 
+
+$h1fontsizetablet: 40px;
+
+$h2fontsizetablet: 20px;
+
+$h3fontsizetablet: 18px;
+
+
+
+//DESKTOP
+
+$regfontsizedesktop: 16px; 
+
+$h2fontsizedesktop: 16px;
+
+$h3fontsizedesktop: 14px;
+
