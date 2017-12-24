@@ -60,6 +60,10 @@ h3 {
   padding-right: 3%; 
 }
 
+h3:active, h3:hover{
+  background-color: $btncolor;
+}
+
 h4 {
   font-size: $h4fontsize;
   font-family: $h4font;
@@ -175,6 +179,10 @@ span {
   background-color: $btncolor;
   border-radius: 24px;
   text-transform: $btntext-transform;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .btntop {

@@ -19,6 +19,12 @@
   margin-top: 8%;
 }
 
+.form-control {
+  border-bottom-color: $maincolor;
+  border-top-color: $maincolor;
+  border-left-color: $maincolor;
+  border-right-color: $maincolor;
+}
 //BESTELLING
 
 .ruimte {
