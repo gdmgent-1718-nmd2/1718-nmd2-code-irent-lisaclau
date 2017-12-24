@@ -3,17 +3,49 @@
 "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
 
 #con {
-    margin-bottom: 12px;
+    margin-bottom: 1%;
   }
   
-  .product {
-    margin-bottom: 40px;
+.product {
+  margin-bottom: 40px;
+}
+
+.bestel {
+  text-align: right;
+}
+
+.form-control {
+  font-size: $regfontsize;
+}
+
+.large {
+  display: none;
+}
+
+.small {
+  display: block;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+  .large {
+    display: block;
   }
-  
-  .bestel {
-    text-align: right;
+
+  .small {
+    display: none;
   }
-  
-  .form-control {
-    font-size: $regfontsize;
+
+}
+
+@media screen and (min-width: 992px) {
+  .top {
+    margin-top: 0px;
   }
+
+  .knop3 {
+    margin-top: -30%;
+  }
+}

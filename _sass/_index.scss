@@ -2,6 +2,14 @@
 "bootstrap-variables",                  // See _bootstrap-variables.scss
 "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
 
+.frontgroot {
+    display: none; 
+}
+
+.frontklein {
+    display: block; 
+}
+
 .home {
     height: 10%;
 }
@@ -12,6 +20,7 @@
     padding-left: 0px;
     padding-right: 0px;
     background-color: white;
+    margin-bottom: 10%;
 }
 
 .container-fluid {
@@ -21,20 +30,38 @@
     padding-bottom: 0px;
 }
 
-.center {
-    text-align: center;
+.yellow {
+    background-color: $maincolor;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
 }
 
-.up {
-    z-index: 1;
+.knop {
+    margin-top: -50%;
 }
 
-.btntop {
-    margin-top: 10%;
+@media screen and (min-width: 768px) {
+
+    .knop {
+        margin-top: -55%;
+   } 
+   
 }
 
-.btnbottom {
-    margin-bottom: 10%;
+@media screen and (min-width: 992px) {
+
+    .knop2 {
+        margin-top: -60%;
+   }
+
+   .frontgroot {
+    display: block; 
 }
 
+    .frontklein {
+        display: none; 
+    }
+
+}
 

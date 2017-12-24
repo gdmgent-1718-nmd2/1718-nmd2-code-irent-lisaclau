@@ -6,12 +6,14 @@
 // Color system
 //
 
-$indigo:  rgb(209, 209, 208);
-$primary: $indigo;
+$maincolor: #FFD402;
+$secondcolor: white;
+$btncolor: #3E3C3C;
 
 // Font, line-height, and color for body text, headings, and more.
 
 // MOBILE
+
 $textalign: center;
 
 $regfontsize: 12px; 
@@ -30,10 +32,13 @@ $h3fontsize: 12px;
 $h4fontsize: 10px;
 $h4font: Bungee, normal;
 
+$h5fontsize: 20px;
+
 $formfontsize: 6px;
 
 $btnfont: Muli;
-$btntext-transform: uppercase; 
+$btntext-transform: uppercase;
+$btnalign: right; 
 
 
 $footerfontsize: 6px;
@@ -48,7 +53,13 @@ $h2fontsizetablet: 20px;
 
 $h3fontsizetablet: 18px;
 
+$h4fontsizetablet: 14px;
+
+$h5fontsizetablet: 50px;
+
 $footerfontsizetablet: 9px;
+
+$formfontsizetablet: 12px;
 
 
 
@@ -56,7 +67,19 @@ $footerfontsizetablet: 9px;
 
 $regfontsizedesktop: 16px; 
 
-$h2fontsizedesktop: 16px;
+$h1fontsizedesktop: 30px;
 
-$h3fontsizedesktop: 14px;
+$h2fontsizedesktop: 18px;
+
+$h3fontsizedesktop: 16px;
+
+$h4fontsizedesktop: 14px;
+
+$h5fontsizedesktop: 50px;
+
+$footerfontsizedesktop: 9px;
+
+$formfontsizedesktop: 12px;
+
+
 

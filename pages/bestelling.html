@@ -7,12 +7,14 @@ title: Bootstrap 4 &mdash; Voorbeeld
 ---
 
 <div class="col-12 col-lg-12"> 
-    <img src="assets/img/bestelling.png" class="balk img-fluid" alt="Responsive image;">
+    <div class="text-center">
+        <img src="assets/img/bestelling.png" class="balk img-fluid" alt="Responsive image;">
+    </div>
 </div>
 
 
 <div class="col-6 col-lg-6"> 
-    <img src="assets/img/afb-product.png" class="product img-fluid" alt="Responsive image;">
+    <img src="assets/img/afb-product.png" class="productsold img-fluid" alt="Responsive image;">
 </div>
 
 <div class="col-6 col-lg-6"> 
@@ -20,12 +22,12 @@ title: Bootstrap 4 &mdash; Voorbeeld
 </div>
 
 
-<div class="col-9 col-lg-5 offset-lg-6 right"> 
+<div class="col-9 col-md-10 col-lg-5 offset-lg-6 right ruimte"> 
     <p>Concentratie excl. reservatiekosten</p>
     <p>Reservatiekosten</p>
 </div>
 
-<div class="col-3 col-lg-1"> 
+<div class="col-3 col-md-2 col-lg-1 ruimte"> 
     <p>€99,99</p>
     <p>€4,99</p>
 </div>
@@ -34,17 +36,17 @@ title: Bootstrap 4 &mdash; Voorbeeld
     <hr color="#FFD402">
 </div>    
 
-<div class="col-9 col-lg-5 offset-lg-6 right"> 
+<div class="col-9 col-md-10 col-lg-5 offset-lg-6 right"> 
     <p>Totaal</p>
 </div>
 
-<div class="col-3 col-lg-1"> 
+<div class="col-3 col-md-2 col-lg-1"> 
     <p>€104,98</p>    
 </div>
     
 <div class="col-12 col-lg-6 offset-lg-6 "> 
     <div class="form-check form-check-inline">
-        <label class="custom-control custom-checkbox voorwaarden">
+        <label class="custom-control custom-checkbox voorwaarden ruimte">
             <input type="checkbox" class="custom-control-input">
             <span class="custom-control-indicator"></span>
             <span class="custom-control-description">Ik ga akkoord met de voorwaarden</span>
@@ -52,6 +54,11 @@ title: Bootstrap 4 &mdash; Voorbeeld
     </div>
 </div>
 
-<div class="col-12 col-lg-12 formbutton right">
-    <a href="betaling.html"><button type="button" class="btn btn-sm">Betaal</button></a>
+
+<div class="col-12 col-lg-12 formbutton">
+    <div class="float-right">
+        <a href="betaling.html"><button type="button" class="btn btn-sm">Betaal</button></a>
+        <a href="betaling.html"><button type="button" class="btn btn-lg">Betaal</button></a>
+    </div>
 </div>
+

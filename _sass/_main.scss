@@ -19,6 +19,7 @@
   padding-right: 6%;
 }
 
+
 p, label, ol {
   font-size: $regfontsize;
 }
@@ -28,7 +29,7 @@ p, label, ol {
 }
 
 
-h1 {
+h1,{
   font-size: $h1fontsize;
   font-family: $h1font;
   margin-top: 10%; 
@@ -49,8 +50,8 @@ h2{
 h3 {
   font-size: $h3fontsize;
   font-family: $regfont;
-  background-color: #FFD402;
-  color: white; 
+  background-color: $maincolor;
+  color: $secondcolor; 
   margin-top: 3%;
   border-radius: 24px;
   padding-top: 3%; 
@@ -66,25 +67,103 @@ h4 {
   text-align: $textalign;
 }
 
-@media screen and (min-width: 480px) {
+h5 {
+  font-size: $h5fontsize;
+  font-family: $h4font;
+  margin-top: 10%; 
 
-p, label, ol{
-  font-size: $regfontsizetablet;
-}
-
-h1 {
-  font-size: $h1fontsizetablet;
 }
 
-h2 {
-  font-size: $h2fontsizetablet;
+.slogan {
+  color: $secondcolor; 
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-h3 {
-  font-size: $h3fontsizetablet;
-  border-radius: 30px;
+span {
+  border-bottom: solid;
+  border-bottom-color: $maincolor;
+  padding-bottom: 1.5%; 
 }
+
+@media screen and (min-width: 768px) {
+
+  p, label, ol{
+    font-size: $regfontsizetablet;
+  }
+
+  h1 {
+    font-size: $h1fontsizetablet;
+  }
+
+  h2 {
+    font-size: $h2fontsizetablet;
+  }
+
+  h3 {
+    font-size: $h3fontsizetablet;
+    border-radius: 30px;
+  }
+
+  h4 {
+    font-size: $h4fontsizetablet;
+  }
+
+  h5 {
+    font-size: $h5fontsizetablet;
+  }
+
+  .form {
+    font-size: $formfontsizetablet;
+  }
+
 }
+
+@media screen and (min-width: 992px) {
+
+  p, label, ol{
+    font-size: $regfontsizedesktop;
+  }
+
+  h1, {
+    font-size: $h1fontsizedesktop;
+    margin-top: 5%; 
+    margin-bottom: 0%;
+  }
+
+  h2 {
+    font-size: $h2fontsizedesktop;
+  }
+
+  h3 {
+    font-size: $h3fontsizedesktop;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%; 
+  }
+
+  h4 {
+    font-size: $h4fontsizedesktop;
+    padding-bottom: 5%;
+  }
+
+  h5 {
+    font-size: $h5fontsizedesktop;
+    margin-top: 5%;
+  }
+
+  .form {
+    font-size: $formfontsizedesktop;
+  }
+
+  .container {
+    margin-top: 5%;
+  }
+
+
+}
+
 
 
 
@@ -92,17 +171,64 @@ h3 {
 
 .btn {
   font-family: $btnfont;
-  color: white;
-  background-color: #3E3C3C;
+  color: $secondcolor;
+  background-color: $btncolor;
   border-radius: 24px;
   text-transform: $btntext-transform;
 }
 
+.btntop {
+  margin-top: 10%;
+}
+
+.btnbottom {
+  margin-bottom: 10%;
+}
+
+.btn-sm {
+  display: block; 
+}
+
+.btn-lg {
+  display: none; 
+}
+
+.btnhome {
+  margin-top: 30%;
+}
+
+.btnhome2 {
+  margin-top: 70%;
+}
+
 .btn:hover{
   -webkit-transform: scale(1.3);
-  background:#FFD402; 
+  background: $maincolor; 
 }
 
 
+@media screen and (min-width: 992px) {
+
+  .btn-sm {
+    display: none; 
+  }
+  .btn-lg {
+    display: block; 
+  }
+}
+
+
+
+  
+// REST
+
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
 
 
