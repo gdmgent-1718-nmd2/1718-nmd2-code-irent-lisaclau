@@ -6,6 +6,10 @@
     display: none; 
 }
 
+.frontmiddel {
+    display: none;
+}
+
 .frontklein {
     display: block; 
 }
@@ -31,7 +35,7 @@
 }
 
 .yellow {
-    background-color: $maincolor;
+    background-color: $primary;
     padding-top: 5%;
     padding-bottom: 5%;
     margin-top: 5%;
@@ -42,26 +46,38 @@
 }
 
 @media screen and (min-width: 768px) {
-
-    .knop {
-        margin-top: -55%;
+    .knop2 {
+        margin-top: -45%;
    } 
-   
+
+   .frontgroot {
+        display: none; 
+    }
+
+    .frontmiddel {
+        display: block;
+    }
+
+    .frontklein {
+        display: none; 
+    } 
 }
 
 @media screen and (min-width: 992px) {
-
     .knop2 {
-        margin-top: -60%;
+        margin-top: -45%;
    }
 
    .frontgroot {
     display: block; 
-}
+    }
+
+    .frontmiddel {
+        display: none;
+    }
 
     .frontklein {
         display: none; 
     }
-
 }
 

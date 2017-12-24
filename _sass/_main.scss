@@ -19,7 +19,6 @@
   padding-right: 6%;
 }
 
-
 p, label, ol {
   font-size: $regfontsize;
 }
@@ -28,14 +27,12 @@ p, label, ol {
   font-size: $formfontsize;
 }
 
-
 h1,{
   font-size: $h1fontsize;
   font-family: $h1font;
   margin-top: 10%; 
   margin-bottom: 15%;
   text-align: $textalign;
-
 }
 
 h2{
@@ -44,14 +41,13 @@ h2{
   text-transform: $h2text-transform; 
   margin-top: 3%;
   margin-bottom: 3%;
-
 }
 
 h3 {
   font-size: $h3fontsize;
   font-family: $regfont;
-  background-color: $maincolor;
-  color: $secondcolor; 
+  background-color: $primary;
+  color: $second; 
   margin-top: 3%;
   border-radius: 24px;
   padding-top: 3%; 
@@ -79,19 +75,18 @@ h5 {
 }
 
 .slogan {
-  color: $secondcolor; 
+  color: $second; 
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
 span {
   border-bottom: solid;
-  border-bottom-color: $maincolor;
+  border-bottom-color: $primary;
   padding-bottom: 1.5%; 
 }
 
 @media screen and (min-width: 768px) {
-
   p, label, ol{
     font-size: $regfontsizetablet;
   }
@@ -120,12 +115,10 @@ span {
   .form {
     font-size: $formfontsizetablet;
   }
-
 }
 
 @media screen and (min-width: 992px) {
-
-  p, label, ol{
+  p, label, ol {
     font-size: $regfontsizedesktop;
   }
 
@@ -164,10 +157,7 @@ span {
   .container {
     margin-top: 5%;
   }
-
-
 }
-
 
 
 
@@ -175,7 +165,7 @@ span {
 
 .btn {
   font-family: $btnfont;
-  color: $secondcolor;
+  color: $second;
   background-color: $btncolor;
   border-radius: 24px;
   text-transform: $btntext-transform;
@@ -211,25 +201,25 @@ a:hover {
 
 .btn:hover{
   -webkit-transform: scale(1.3);
-  background: $maincolor; 
+  background: $primary; 
 }
 
 
-@media screen and (min-width: 992px) {
-
+@media screen and (min-width: 768px) {
   .btn-sm {
     display: none; 
   }
   .btn-lg {
     display: block; 
   }
+
+  .btn-lg-tablet {
+    text-align: center;
+  }
 }
-
-
 
   
 // REST
-
 
 .right {
   text-align: right;

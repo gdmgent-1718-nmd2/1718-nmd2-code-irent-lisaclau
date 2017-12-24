@@ -4,8 +4,8 @@
 
 // ALGEMEEN
 .balk {
-    margin-top: 5%;
-    margin-bottom: 15%;
+  margin-top: 5%;
+  margin-bottom: 15%;
 }
 
 //GEGEVENS
@@ -19,12 +19,6 @@
   margin-top: 8%;
 }
 
-.form-control {
-  border-bottom-color: $maincolor;
-  border-top-color: $maincolor;
-  border-left-color: $maincolor;
-  border-right-color: $maincolor;
-}
 //BESTELLING
 
 .ruimte {
@@ -52,7 +46,7 @@
 }
 
 .bedanking {
-  color: $secondcolor;
+  color: $second;
   margin-bottom: 0%; 
 }
 
@@ -63,12 +57,10 @@
 
 
 @media screen and (min-width: 768px) {
-
   .low {
     margin-bottom: 60%;
   }
-  
-  }
+}
 
 @media screen and (min-width: 992px) {
   .balk {
