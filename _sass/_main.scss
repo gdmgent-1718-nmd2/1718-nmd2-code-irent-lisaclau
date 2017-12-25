@@ -40,11 +40,11 @@
 
 // TEXT
 
-p, ol {
+p, label, ol, {
   font-size: $regsize;
 }
 
-form {
+.form {
   font-size: $formsize;
 }
 

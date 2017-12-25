@@ -26,19 +26,13 @@
 //GEGEVENS
 
 .form {
-  font-size: $formsize;
   margin-bottom: 5%;
 }
 
 @media screen and (min-width: 992px) {
   .form {
-    font-size: $formsize;
     margin-bottom: 2%;
   }
-}
-
-label {
-  font-size: $regsize;
 }
 
 
