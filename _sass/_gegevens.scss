@@ -3,21 +3,44 @@
 "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
 
 // ALGEMEEN
+
 .balk {
   margin-top: 5%;
   margin-bottom: 15%;
 }
 
-//GEGEVENS
-
-.form {
-  font-size: $formfontsize;
-  margin-bottom: 5%;
+@media screen and (min-width: 992px) {
+  .balk {
+    margin-top: 0%;
+    margin-bottom: 10%;
+    width: 60%;
+    text-align: center; 
+  }
 }
 
 .formbutton {
   margin-top: 8%;
 }
+
+
+//GEGEVENS
+
+.form {
+  font-size: $formsize;
+  margin-bottom: 5%;
+}
+
+@media screen and (min-width: 992px) {
+  .form {
+    font-size: $formsize;
+    margin-bottom: 2%;
+  }
+}
+
+label {
+  font-size: $regsize;
+}
+
 
 //BESTELLING
 
@@ -25,6 +48,11 @@
   margin-top: 8%;
 }
 
+@media screen and (min-width: 992px) {
+  .productsold {
+    width: 55%;
+  }
+}
 
 //BETALING
 
@@ -36,6 +64,28 @@
 .custom-control-indicator, .custom-control-description {
   border-bottom: none;
 }
+
+@media screen and (min-width: 768px) {
+  .low {
+    margin-bottom: 60%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    width: 50%;
+  }
+
+  .bottomtop {
+    padding-bottom: 10%;
+    padding-top: 2%;
+  }
+
+  .low {
+    margin-bottom: 40%;
+  }
+}
+
 
 // BEDANKING 
 
@@ -52,43 +102,4 @@
 
 .top {
   margin-top: 15%;
-}
-
-
-
-@media screen and (min-width: 768px) {
-  .low {
-    margin-bottom: 60%;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .balk {
-    margin-top: 0%;
-    margin-bottom: 10%;
-    width: 60%;
-    text-align: center; 
-  }
-
-  .form {
-    font-size: $formfontsize;
-    margin-bottom: 2%;
-  }
-
-  .productsold {
-    width: 55%;
-  }
-
-  .card {
-    width: 50%;
-  }
-
-  .bottomtop {
-    padding-bottom: 10%;
-    padding-top: 2%;
-  }
-
-  .low {
-    margin-bottom: 40%;
-  }
 }

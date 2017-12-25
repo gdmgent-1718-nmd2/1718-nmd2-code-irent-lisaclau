@@ -33,9 +33,9 @@
 }
 
 .nav-item {
-  font-family: $h1font;
-  font-size: $h2fontsize;
-  text-transform: $h2text-transform; 
+  font-family: $secondfont;
+  font-size: $h2size;
+  text-transform: $h2uppercase; 
   text-align: center;
   margin-bottom: 5%; 
   margin-top: 5%;
@@ -64,13 +64,13 @@
   }
 
   .nav-item {
-    font-size: $h2fontsizetablet; 
+    font-size: $h2sizetablet; 
   }
 }
   
 @media screen and (min-width: 992px) {
   .nav-item {
-    font-size: $h2fontsizedesktop;
+    font-size: $h2sizedesktop;
     margin-left: 45px;
     margin-bottom: 0%; 
     margin-top: 0%;

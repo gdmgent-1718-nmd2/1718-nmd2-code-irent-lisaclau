@@ -10,20 +10,17 @@
   margin-bottom: 40px;
 }
 
-.bestel {
-  text-align: right;
+.small {
+  display: block;
 }
 
-.form-control {
-  font-size: $regfontsize;
-}
 
 .large {
   display: none;
 }
 
-.small {
-  display: block;
+.form-control {
+  font-size: $regsize;
 }
 
 

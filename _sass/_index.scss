@@ -2,22 +2,6 @@
 "bootstrap-variables",                  // See _bootstrap-variables.scss
 "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
 
-.frontgroot {
-    display: none; 
-}
-
-.frontmiddel {
-    display: none;
-}
-
-.frontklein {
-    display: block; 
-}
-
-.home {
-    height: 10%;
-}
-  
 .jumbotron-fluid {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -25,6 +9,22 @@
     padding-right: 0px;
     background-color: white;
     margin-bottom: 10%;
+}
+
+.frontklein {
+    display: block; 
+}
+
+.frontmiddel {
+    display: none;
+}
+
+.frontgroot {
+    display: none; 
+}
+
+.knop {
+    margin-top: -50%;
 }
 
 .container-fluid {
@@ -41,26 +41,22 @@
     margin-top: 5%;
 }
 
-.knop {
-    margin-top: -50%;
-}
-
 @media screen and (min-width: 768px) {
     .knop2 {
         margin-top: -45%;
    } 
 
-   .frontgroot {
+   .frontklein {
         display: none; 
-    }
+    } 
 
     .frontmiddel {
         display: block;
     }
 
-    .frontklein {
+   .frontgroot {
         display: none; 
-    } 
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -68,16 +64,16 @@
         margin-top: -45%;
    }
 
-   .frontgroot {
-    display: block; 
+   .frontklein {
+        display: none; 
     }
 
     .frontmiddel {
         display: none;
     }
 
-    .frontklein {
-        display: none; 
+   .frontgroot {
+        display: block; 
     }
 }
 

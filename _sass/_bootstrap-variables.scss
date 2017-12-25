@@ -1,86 +1,80 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee');
 @import url('https://fonts.googleapis.com/css?family=Muli:400,700');
 
-
-//
-// Color system
-//
+// COLOR SYSTEM
 
 $indigo: #FFD402;
 $primary: $indigo;
 $second: white;
 $btncolor: #3E3C3C;
 
-// Font, line-height, and color for body text, headings, and more.
+
+// FONTS
+
+$regfont: Muli, normal;
+$secondfont: Bungee, normal;
+
+
 
 // MOBILE
 
-$textalign: center;
+$regsize: 12px; 
 
-$regfontsize: 12px; 
-$regfont: Muli, normal;
+$h1size: 24px; 
 
+$h2size: 14px;
+$h2uppercase: uppercase; 
 
-$h1fontsize: 24px; 
-$h1font: Bungee, normal;
+$h3size: 12px;
 
-$h2fontsize: 14px;
-$h2text-transform: uppercase; 
+$h4size: 10px;
 
+$h5size: 20px;
 
-$h3fontsize: 12px;
+$formsize: 6px;
 
-$h4fontsize: 10px;
-$h4font: Bungee, normal;
+$btnuppercase: uppercase;
 
-$h5fontsize: 20px;
+$footersize: 6px;
 
-$formfontsize: 6px;
-
-$btnfont: Muli;
-$btntext-transform: uppercase;
-$btnalign: right; 
-
-
-$footerfontsize: 6px;
 
 //TABLET
 
-$regfontsizetablet: 16px; 
+$regsizetablet: 16px; 
 
-$h1fontsizetablet: 40px;
+$h1sizetablet: 40px;
 
-$h2fontsizetablet: 20px;
+$h2sizetablet: 20px;
 
-$h3fontsizetablet: 18px;
+$h3sizetablet: 18px;
 
-$h4fontsizetablet: 14px;
+$h4sizetablet: 14px;
 
-$h5fontsizetablet: 50px;
+$h5sizetablet: 50px;
 
-$footerfontsizetablet: 9px;
+$footersizetablet: 9px;
 
-$formfontsizetablet: 12px;
+$formsizetablet: 12px;
 
 
 
 //DESKTOP
 
-$regfontsizedesktop: 16px; 
+$regsizedesktop: 16px; 
 
-$h1fontsizedesktop: 30px;
+$h1sizedesktop: 30px;
 
-$h2fontsizedesktop: 18px;
+$h2sizedesktop: 18px;
 
-$h3fontsizedesktop: 16px;
+$h3sizedesktop: 16px;
 
-$h4fontsizedesktop: 14px;
+$h4sizedesktop: 14px;
 
-$h5fontsizedesktop: 50px;
+$h5sizedesktop: 50px;
 
-$footerfontsizedesktop: 9px;
+$footersizedesktop: 9px;
 
-$formfontsizedesktop: 12px;
+$formsizedesktop: 12px;
 
 
 
